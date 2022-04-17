@@ -2143,6 +2143,9 @@ header {
     padding: 20px 0;
     margin: 10px 0;
   }
+  .form__button {
+    padding: 24px 24px;
+  }
   body,
   section,
   footer {
@@ -2151,6 +2154,27 @@ header {
   }
 }
 @media (max-width: 320px) {
+  #burger-menu {
+    right: 20px !important;
+  }
+  .sec1 .main__title {
+    font-size: 32px;
+  }
+  .main__btn {
+    padding: 24px 12px;
+  }
+  .sec2 .title {
+    font-size: 20px;
+  }
+  .sec3 .title {
+    font-size: 28px;
+  }
+  .program .tabs__caption li {
+    padding: 16px 12px;
+  }
+  .social__title {
+    font-size: 30px;
+  }
   header,
   section,
   footer {
